@@ -1,0 +1,272 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    @fontface{
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Montserrat:ital,wght@0,300;0,400;1,500&family=Noto+Sans+TC:wght@600&family=Nova+Square&family=Roboto:wght@300&family=Saira+Extra+Condensed:wght@100;300&family=Sevillana&family=Vina+Sans&display=swap" rel="stylesheet">
+    }
+    font-family: 'Kalnia', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Vina Sans', sans-serif;
+}
+.sample{
+    background-color: rgb(241, 240, 240);
+}
+header{
+    height: 100px;
+}
+.cdn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    visibility: hidden;
+}
+.logo{
+   display: flex;
+   height: 100px;
+   
+}
+.logo .care{
+    display: flex;
+    align-items: center;
+}
+nav{
+    height: 100%;
+    box-shadow: 2px 2px 2px rgb(255, 238, 238);
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-items{ 
+    float: right;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+}
+.nav-items .book{
+    padding-left: 10px;
+    background-color: rgb(18, 190, 190);
+    width: 15.9rem;
+    color: antiquewhite;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.container{
+    width: 1349px;
+    height: 600px;
+    background-image: linear-gradient(rgba(118, 214, 214, 0.753), rgba(115, 194, 194, 0.1)),  url('./pexels-los-muertos-crew-8460372.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .text{
+    width: 50%;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-top: 20px;
+}
+.container .place {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.container .para{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.1rem;
+    padding-top: 15px;
+}
+.btn1{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 2px 2px 2px 2px;
+    padding: 4px;
+    box-shadow: 2px 2px 2px grey;
+    display: inline-block;
+    margin-top: 20px;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 100px;
+    border-radius: 2px 2px 2px 2px;
+    padding: 4px;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 10px;
+    display: inline-block;
+}
+.key{
+    margin-top: 50px;
+}
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.take{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-regular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame{
+    background-color: rgb(132, 217, 238);
+    border-radius: 50% ; 
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.card1 , .card2 , .card3{
+    border: 2px solid black;
+    width: 250px;
+    margin: 10px;
+    height: 150px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: white;
+}
+.box{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.box h1{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.box p{
+    font-size: .8rem;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:800px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        @fontface{
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Montserrat:ital,wght@0,300;0,400;1,500&family=Noto+Sans+TC:wght@600&family=Nova+Square&family=Roboto:wght@300&family=Saira+Extra+Condensed:wght@100;300&family=Sevillana&family=Vina+Sans&display=swap" rel="stylesheet">
+            font-family: 'Kalnia', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Vina Sans', sans-serif;
+        }    
+    }
+    .sample{
+        background-color: rgb(241, 240, 240);
+    width: 1349px;
+    }
+    header{
+        height: 80px;
+    }
+    .nav-items a{
+        visibility: hidden;
+    }
+    .cdn{
+        visibility: visible;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+    .logo .care{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-items .book{
+        padding-left: 10px;
+        width: 13.5rem;
+        font-size: 1.1rem;
+    }
+    .container{
+        background-image: linear-gradient(rgba(118, 214, 214, 0.753), rgba(115, 194, 194, 0.1)),  url('./pexels-los-muertos-crew-8460372.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .text{
+        width: 50%;
+        letter-spacing: .5px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .container .para{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 1.1rem;
+        padding-top: 15px;
+    }
+    .feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .take{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: inline-block;
+    }
+    .box .card1 .card2 .card3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        height: 75px;
+        letter-spacing: 1px;
+    }
+    .box h1{
+        font-size: .9rem;
+        text-align: center;
+    }
+    .box p{
+        font-size: .5rem;
+        text-align: center;
+        padding: 10px;
+    }
+}
